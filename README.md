@@ -37,11 +37,20 @@ pip install -r requirements.txt
 
 Initialize Airflow db
 ```
+export AIRFLOW_HOME=~/airflow
 airflow db init
 ```
 
 Create Airflow user
 ```
+airflow users create \
+  --username admin \
+  --firstname admin \
+  --lastname admin \
+  --role Admin \
+  --email admin@admin.com \
+  --password admin
+
 ```
 
 Start Airflow UI
