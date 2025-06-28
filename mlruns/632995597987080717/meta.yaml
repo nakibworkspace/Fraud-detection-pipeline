@@ -1,0 +1,6 @@
+artifact_location: file:///root/code/fraud_detection_pipeline/mlruns/632995597987080717
+creation_time: 1751144028301
+experiment_id: '632995597987080717'
+last_update_time: 1751144028301
+lifecycle_stage: active
+name: fraud_detection_isolation_forest

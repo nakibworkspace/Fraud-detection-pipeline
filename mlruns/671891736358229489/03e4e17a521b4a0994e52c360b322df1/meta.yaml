@@ -1,0 +1,15 @@
+artifact_uri: file:///root/code/fraud_detection_pipeline/mlruns/671891736358229489/03e4e17a521b4a0994e52c360b322df1/artifacts
+end_time: 1751145091742
+entry_point_name: ''
+experiment_id: '671891736358229489'
+lifecycle_stage: active
+run_id: 03e4e17a521b4a0994e52c360b322df1
+run_name: lightgbm_training
+run_uuid: 03e4e17a521b4a0994e52c360b322df1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751145091698
+status: 4
+tags: []
+user_id: root

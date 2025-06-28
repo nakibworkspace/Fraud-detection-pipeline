@@ -1,0 +1,15 @@
+artifact_uri: file:///root/code/fraud_detection_pipeline/mlruns/632995597987080717/10ff3e10297747ef88aecbaa6e219894/artifacts
+end_time: 1751144402073
+entry_point_name: ''
+experiment_id: '632995597987080717'
+lifecycle_stage: active
+run_id: 10ff3e10297747ef88aecbaa6e219894
+run_name: isolation_forest_training
+run_uuid: 10ff3e10297747ef88aecbaa6e219894
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751144402041
+status: 4
+tags: []
+user_id: root

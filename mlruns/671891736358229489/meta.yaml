@@ -1,0 +1,6 @@
+artifact_location: file:///root/code/fraud_detection_pipeline/mlruns/671891736358229489
+creation_time: 1751144020754
+experiment_id: '671891736358229489'
+last_update_time: 1751144020754
+lifecycle_stage: active
+name: fraud_detection_lightgbm
