@@ -91,3 +91,14 @@ python mlflow_start.py
 
 Access the MLFlow UI using Load Balancer on 5000 port
 
+
+### Note:
+The files \
+**debug_data_quality.py** - to debug data quality issues in your training pipeline by comparing source data with Feast feature data and testing the training logic.\
+
+**inspect_fraud_features.py** - The script inspects the fraud_features feature view in the Feast feature store and tests its compatibility with the training pipeline. \
+
+**new.py** - to check datatypes of featured data, 
+troubleshoot.py - The script diagnoses and fixes issues with the Feast feature store setup. It checks the directory structure, initializes the store, verifies feature definitions, validates the data source (data_source.parquet), and tests feature retrieval.\
+
+**setup_feast.py** - The script sets up a simplified Feast feature store by checking the data source (data_source.parquet), applying feature definitions with feast apply, initializing the store, and testing feature serving with a sample entity dataframe.
