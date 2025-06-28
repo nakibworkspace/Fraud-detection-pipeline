@@ -66,7 +66,7 @@ ip addr show eth0
 ```
 and port 8081
 
-![image 1](/root/code/fraud_detection_pipeline/images/image01.png)
+![image 1](fraud_detection_pipeline/images/image01.png)
 
 Start Mongodb and Redis
 ```
