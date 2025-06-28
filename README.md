@@ -66,15 +66,37 @@ ip addr show eth0
 ```
 and port 8081
 
+![image 1](/root/code/fraud_detection_pipeline/images/image01.png)
+
 Start Mongodb and Redis
 ```
 sudo systemctl start mongodb
 sudo systemctl start redis
 ```
 
+Verify Redis running
+```
+redis-cli ping
+```
+will deliver PONG
+
+
 Upload Dataset to Mongodb
 Run
 scripts/upload_to_mongodb.py
+
+Check mongodb 
+```
+sudo systemctl status mongodb
+```
+will show Active
+
+Connect to Mongodb Shell
+```
+mongo
+>
+show fraud_detection
+```
 
 Setup Feast
 ```
