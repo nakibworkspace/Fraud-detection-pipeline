@@ -16,7 +16,7 @@ git clone https://github.com/nakibworkspace/Fraud-detection-pipeline.git
 ```
 Setup the VSCode
 ```sudo apt update && sudo apt upgrade -y
-sudo apt install python3 python3-venv python3-pip
+sudo apt install python3 python3-venv python3-pip mongodb redis-server
 ```
 
 Create a Virtual Environment
@@ -56,4 +56,38 @@ IP:
 ip addr show eth0
 ```
 and port 8081
+
+Start Mongodb and Redis
+```
+sudo systemctl start mongodb
+sudo systemctl start redis
+```
+
+Upload Dataset to Mongodb
+Run
+scripts/upload_to_mongodb.py
+
+Setup Feast
+```
+feast init fraud_feature_repo
+cd fraud_feature_repo
+```
+Then
+```
+cd fraud_detection_features
+feast apply
+```
+
+This will generate a registry.db in data directory.
+
+Go to Airflow UI and trigger preprocessing pipeline
+
+Start MLFlow server
+
+Run the mlflow_start.py file on root directory 
+```
+python mlflow_start.py
+```
+
+Access the MLFlow UI using Load Balancer on 5000 port
 
