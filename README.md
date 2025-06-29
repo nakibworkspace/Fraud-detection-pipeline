@@ -67,7 +67,7 @@ ip addr show eth0
 ```
 and port 8081
 
-![image 1](fraud_detection_pipeline/images/image01.png)
+![image01](images/image01.png)
 
 Start Mongodb and Redis
 ```
@@ -122,6 +122,42 @@ python mlflow_start.py
 ```
 
 Access the MLFlow UI using Load Balancer on 5000 port
+
+![image2](images/image02.png)
+
+Outputs on Airflow UI:
+
+**Preprocessing Pipeline**
+![image4](images/image04.png)
+Pushed to feast successfully
+![image5](images/image05.png)
+Shows the execution time of the whole process
+![image7](images/image07.png)
+
+![image7.2](images/image07(2).png)
+Total Pipeline
+
+**Training Pipeline**
+![image6](images/image06.png)
+
+
+Outputs on MLFlow registry:
+
+MLFlow UI
+![image8](images/image08.png)
+
+XGBoost performance and artifacts
+![image9](images/image09.png)
+![image10](images/image10.png)
+![image11](images/image11.png)
+
+
+LGBM performance and artifacts
+![image12](images/image12.png)
+![image13](images/image13.png)
+![image14](images/image14.png)
+
+
 
 
 ### Note:
