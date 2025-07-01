@@ -8,7 +8,7 @@ This Machine Learning model pipeline does following:
 - The Training Pipeline ingest featured data to train Machine Learning models (XGBoost, LGBM, Isolation Forest) and pick the best model to serve.
 - Also stores the artifacts on MLFlow.
 
-![image](images/image15.svg)
+![image01](images/fraud detection.png)
 
 ## Project Setup
 
