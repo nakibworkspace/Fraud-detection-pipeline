@@ -8,7 +8,7 @@ This Machine Learning model pipeline does following:
 - The Training Pipeline ingest featured data to train Machine Learning models (XGBoost, LGBM, Isolation Forest) and pick the best model to serve.
 - Also stores the artifacts on MLFlow.
 
-![image01](images/fraud detection.png)
+![[images/fraud detection.png](https://github.com/nakibworkspace/Fraud-detection-pipeline/blob/master/images/fraud%20detection.png?raw=true)
 
 ## Project Setup
 
